@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Algorithm Visualizer</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Pathfinding Algorithm Visualizer</h1>
+    
+    <!-- Algorithm Title Section -->
+    <div id="algorithm-title">
+        <span id="dijkstra-title" class="algorithm-box">Dijkstra</span>
+        <span id="a-star-title" class="algorithm-box">A*</span>
+    </div>
+
+    <div id="grid"></div>
+
+    <div id="controls">
+        <button onclick="startPathfinding('dijkstra')">Run Dijkstra</button>
+        <button onclick="startPathfinding('a_star')">Run A*</button>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
